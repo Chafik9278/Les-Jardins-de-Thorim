@@ -23,13 +23,14 @@ h3 {
 }
 
 img {
-  width: 200px;
-  height: 220px;
+  width: 100%;
+
+  object-fit: cover;
 }
 
 .container {
   width: 90%;
-  margin: 10px auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -82,9 +83,35 @@ nav ul li {
 }
 
 .section-1 img {
-  width: 100%;
   height: 300px;
 }
+
+.img-min {
+  text-align: center;
+ padding: 10px;
+ 
+}
+
+.img-max {
+ 
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .img-max {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .img-min  {
+      display: none;
+  }
+}
+
+
+
 
 /* *******  SECTION 2 ***** */
 .section-2 {
@@ -137,21 +164,19 @@ nav ul li {
   border: 1px black solid;
   text-align: center;
 
-  height: 450px;
-  padding: 10px;
+
 }
 
 .icones img {
-  width: 20px;
-  height: 20px;
+
 }
 
 .section4-img {
-  margin: 50px;
+ 
 }
 
 .section4-container textarea {
-  height: 200px;
+ 
 }
 
 .Galerie {
@@ -160,7 +185,7 @@ nav ul li {
 }
 
 .Galerie img {
-  margin: 5px;
+  
 }
 
 /* *******  SECTION 5 ***** */
